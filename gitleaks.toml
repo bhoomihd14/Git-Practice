@@ -1,0 +1,10 @@
+title = "DevSecOps Secret Scanner Configuration"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Exclude generated security scan reports"
+paths = [
+    '''reports/.*'''
+]
